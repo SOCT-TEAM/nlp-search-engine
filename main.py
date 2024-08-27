@@ -52,6 +52,7 @@ def get_query(query: str = Query(...)) -> dict:
         'message': 'OK' if results else 'No results found'
     }
 
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8888)
+# Descomente o código abaixo para rodar o servidor localmente na porta 8888 --> Acesse http://0.0.0.0:8888/query?query=your_query
+# if __name__ == "__main__":
+#     import uvicorn
+#     uvicorn.run(app, host="0.0.0.0", port=8888)
