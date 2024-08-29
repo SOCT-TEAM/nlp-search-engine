@@ -103,14 +103,14 @@ Os dados foram obtidos dos essays disponíveis no site [Paul Graham](https://www
 Aqui estão três exemplos de testes que você pode realizar para verificar o funcionamento da aplicação:
 
 1. **Teste com 10 resultados:**
-   - **URL**: `http://10.103.0.28:8888/query?query=users`
+   - **URL**: `http://10.103.0.28:1001/query?query=users`
    - **Descrição**: Esta consulta retorna 10 resultados relevantes relacionados ao termo "users", que é um tema comum nos essays de Paul Graham.
 
 2. **Teste com menos de 10 resultados:**
-   - **URL**: `http://10.103.0.28:8888/query?query=love`
+   - **URL**: `http://10.103.0.28:1001/query?query=love`
    - **Descrição**: Esta consulta utiliza um termo raro que aparece em menos de 10 documentos, resultando em um número menor de resultados (2).
 
 3. **Teste com resultado não óbvio:**
-   - **URL**: `http://10.103.0.28:8888/query?query=writing`
+   - **URL**: `http://10.103.0.28:1001/query?query=writing`
    - **Descrição**: A consulta por "writing" retorna resultados que não são imediatamente aparentes como relevantes para startups ou negócios, mas que abordam a simplicidade e qualidade da escrita como um motor para criatividade e comunicação.
 
