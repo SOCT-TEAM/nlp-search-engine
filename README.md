@@ -80,12 +80,12 @@ Congratulations! You have successfully set up the `nlp-search-engine` repository
 3. Execute o servidor FastAPI com o Uvicorn:
 
     ```
-    uvicorn main:app --host 0.0.0.0 --port 8888
+    uvicorn main:app --host 0.0.0.0 --port 1001
     ```
 
-    Substitua `8888` por qualquer porta disponível de sua escolha.
+    Substitua `1001` por qualquer porta disponível de sua escolha.
 
-4. Agora você pode acessar o servidor via `http://10.103.0.28:8888/query` em seu navegador ou através de ferramentas como o Postman.
+4. Agora você pode acessar o servidor via `http://10.103.0.28:1001/query` em seu navegador ou através de ferramentas como o Postman.
 
 ## How It Works
 
